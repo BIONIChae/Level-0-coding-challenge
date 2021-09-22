@@ -1,13 +1,14 @@
-str = input()
-print("Vowels:")
-for x in str:
-    if x == 'a':
+def string(word):
+  for letter in word:
+    if letter == 'a' or letter == 'A':
         print('a')
-    if x == 'e':
+    if letter == 'e' or letter == 'E':
         print('e')
-    if (x == 'i'):
+    if letter == 'i' or letter == 'I':
         print('i')
-    if (x == 'o'):
+    if letter == 'o' or letter == 'O':
         print('o')
-    if (x == 'u'):
+    if letter == 'u' or letter == 'U':
         print('u')
+print("Vowels:")
+string()
