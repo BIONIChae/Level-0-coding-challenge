@@ -1,4 +1,4 @@
-ef print_vowel(word):
+def print_vowel(word):
     vowels = ['a', 'e', 'i', 'o', 'u']
     output = "" 
    
