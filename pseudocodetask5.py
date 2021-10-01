@@ -3,4 +3,4 @@ def sides_of_triangle(x, y, z):
     s = semi_perimeter
     area = (s * (s-x) * (s-y) * (s-z)) ** 0.5
     print(area)
-sides_of_triangle()
+sides_of_triangle(3, 4, 5)
