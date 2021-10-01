@@ -6,7 +6,7 @@ def maximum(a, b, c):
     else:
         print(c)
 print("Maximum of three:")
-maximum()
+maximum(1, 2, 3)
 
 def maximum(*array):
     max_value = array[0]
@@ -15,4 +15,4 @@ def maximum(*array):
           max_value = argument
 
     print("Maximum value:", max_value)
-maximum() 
+maximum(1, 2, 3, 4, 6, 5) 
