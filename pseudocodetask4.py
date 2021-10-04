@@ -3,4 +3,4 @@ def even_or_odd(integer):
         print("Even")
     else:
         print("Odd")
-even_or_odd()
+even_or_odd(2)
