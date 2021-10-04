@@ -3,6 +3,5 @@ def maximum(*array):
     for argument in array:
       if argument > max_value:
           max_value = argument
-
-    print("Maximum value:", max_value)
-maximum(1, 22, 3, 2) 
+    return max_value
+print(maximum(1, 22, 3, 2))
