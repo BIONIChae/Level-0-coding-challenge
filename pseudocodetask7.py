@@ -1,10 +1,8 @@
-def convert(celsius):
-    fahrenheit = (9/5 * celsius) + 32
-    print(fahrenheit)
-convert(30)
-
-def convert(fahrenheit):
-    celsius = (fahrenheit - 32) * 5/9
-    print(celsius)
-convert(87)
+def convert(cels, fahr):
+    for c in range(cels):
+        fahrenheit = (9/5 * cels) + 32
+    for f in range(fahr):
+        celsius = (fahr - 32) * 5/9
+        return fahrenheit, celsius
+print(convert(35, 68))
 
